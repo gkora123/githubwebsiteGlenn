@@ -1,0 +1,33 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+body{
+  color: white;
+
+
+}
+li{
+  padding:20px;
+  background: black;
+  font-family: fantasy;
+  border-radius: 10px;
+  border-color: black;
+  display: block;
+
+}
+li :hover a{
+  background: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+h2{
+  font-family: monospace;
+  background: black;
+  color: white;
+}
+p{
+  color: black;
+}
