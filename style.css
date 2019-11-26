@@ -35,11 +35,12 @@ a{
 }
 h2{
   font-family: monospace;
-  background: black;
-  color: white;
+  background: white;
+  color: black;
 }
+
 p{
-  color: white;
+  color: black;
 }
 
 header {
@@ -111,4 +112,13 @@ img{
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 80px;
+}
+
+.sr-only {
+  position: absolute;
+  top: auto;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
