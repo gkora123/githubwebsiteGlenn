@@ -26,7 +26,8 @@ li{
 
 }
 li :hover a{
-  background: white;
+  background: black;
+
 }
 a{
   text-decoration: none;
@@ -38,7 +39,7 @@ h2{
   color: white;
 }
 p{
-  color: black;
+  color: white;
 }
 
 header {
@@ -100,4 +101,14 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+}
+
+img{
+  width: 55%;
+  border-style: solid;
+  border-color: #33FFDA;
+  border-width: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 80px;
 }
