@@ -18,7 +18,7 @@ body{
 
 li{
   padding:20px;
-  background: black;
+  background: white;
   font-family: fantasy;
   border-radius: 10px;
   border-color: black;
@@ -34,13 +34,14 @@ a{
   color: white;
 }
 h2{
-  font-family: monospace;
-  background: white;
+  font-family: fantasy;
+  background: White;
   color: black;
 }
 
 p{
   color: black;
+
 }
 
 header {
