@@ -6,7 +6,10 @@
 }
 body{
   margin: 0;
-	background: #222;
+  background: url(piggybankBackground.jpg), #55d6aa ;
+	background-size: contain;
+  background-position: bottom;
+  background-blend-mode: overlay;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
 }
@@ -18,8 +21,8 @@ body{
 
 li{
   padding:20px;
-  background: white;
-  font-family: fantasy;
+  /* background: white; */
+  font-family: cambria;
   border-radius: 10px;
   border-color: black;
   display: block;
@@ -34,8 +37,14 @@ a{
   color: white;
 }
 h2{
-  font-family: fantasy;
-  background: White;
+  font-family: Bebas Neue;
+  /* background: White; */
+  color: black;
+  margin: 10px 10px 0 10px;
+}
+
+h1{
+  font-family: Libre Baskerville;
   color: black;
 }
 
@@ -71,7 +80,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 70px;
+  /* margin-left: 70px; */
   padding-top: 23px;
 
   position: relative;
@@ -122,4 +131,12 @@ img{
   width: 1px;
   height: 1px;
   overflow: hidden;
+}
+
+section {
+  background: rgba(255,255,255,.4);
+  margin-top: 20px;
+  width: 80%;
+  margin: auto;
+
 }
