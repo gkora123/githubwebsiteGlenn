@@ -78,6 +78,10 @@ nav ul {
   list-style: none;
 }
 
+body ul{
+  list-style: circle;
+}
+
 nav li {
   display: inline-block;
   /* margin-left: 70px; */
