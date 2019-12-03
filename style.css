@@ -48,11 +48,6 @@ h1{
   color: black;
 }
 
-p{
-  color: black;
-
-}
-
 header {
   background: #55d6aa;
 }
@@ -76,10 +71,6 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-body ul{
-  list-style: circle;
 }
 
 nav li {
