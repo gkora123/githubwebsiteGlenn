@@ -133,9 +133,28 @@ section {
   margin-top: 20px;
   width: 80%;
   margin: auto;
-
 }
 
-url{
-  color: black;
+footer a:link {
+  color: #33FFE3;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: #FCFF33;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #FF3333;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+footer a:active {
+  color: #3336FF;
+  background-color: transparent;
+  text-decoration: underline;
 }
