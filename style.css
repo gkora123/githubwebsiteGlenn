@@ -25,17 +25,16 @@ li{
   font-family: cambria;
   border-radius: 10px;
   border-color: black;
-  display: block;
-
 }
+
 li :hover a{
   background: black;
-
 }
 a{
   text-decoration: none;
   color: white;
 }
+
 h2{
   font-family: Bebas Neue;
   /* background: White; */
@@ -133,6 +132,7 @@ section {
   margin-top: 20px;
   width: 80%;
   margin: auto;
+  display: bulletpoints;
 }
 
 footer a:link {
